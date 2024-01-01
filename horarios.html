@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Sorrir - Nossos Horários</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table tr:nth-child(even) {
+            background-color:rgb(209, 235, 227);
+        }
+    </style>
+</head>
+<body>
+    
+    <audio id="meuAudio" autoplay>
+        <source src="yussef.mp3" type="audio/mp3"/>
+        Seu navegador não tem suporte para esse áudio!
+    </audio> 
+
+    <!--acrescentei esse script para que o áudio comece a tocar com o volume em 20%-->
+    <script>
+        var meuAudio = document.getElementById('meuAudio');
+        meuAudio.volume = 0.1;
+    </script>
+
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" title="Página principal">Início</a></li>
+                <li><a href="quemSomos.html" title="Quem somos">Quem somos</a></li>
+                <li><a href="horarios.html" title="Horário de Atendimento">Horário de Atendimento</a></li>
+                <li><a href="contatos.html" title="Contato">Contato</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="main">
+            <div class="header">
+                
+                <img src="https://noticias-savein.cdn.jelastic.net/wp-content/uploads/sites/7/2017/04/ceres-novo-horario-de-atendimento.jpg">
+            </div>
+    
+            <div class="content">
+                <h2><u>Nossos Horários</u></h2>
+                <p>Aqui acreditamos na importância de oferecer opções terapêuticas diversificadas, garantindo um atendimento personalizado e eficaz para cada criança. Nossa equipe está comprometida em proporcionar suporte emocional e orientação, auxiliando as crianças a construírem bases sólidas para um futuro saudável e feliz. Junte-se a nós nessa jornada de cuidado e desenvolvimento infantil.</p>
+                <p>Na Clínica Sorrir, oferecemos uma variedade de serviços especializados em psicologia infantil, visando promover o bem-estar emocional e o desenvolvimento saudável das crianças. Nossos profissionais altamente qualificados são dedicados a proporcionar um ambiente acolhedor e seguro, adaptando abordagens terapêuticas de acordo com as necessidades individuais de cada criança. Conheça mais sobre nossos principais serviços:</p>
+                
+              <table summary="Esta tablea mostra os tipos de tratamentos, horários e valores da clínica" cellspacing="5" border= "1" width="950"  align="center">
+                   <tr>
+                        <td>Tratamentos</td>
+                        <td>Segunda à Sexta</td>
+                        <td>Sábados</td>
+                        <td>Valor por consulta</td>
+                        <td>Pacote Promocional Mensal</td>
+                   </tr>
+                   <tr>
+                        <td>Terapia Cognitivo-Comportamental</td>
+                        <td>08:00 às 18:00</td>
+                        <td>08:00 às 12:00</td>
+                        <td>R$ 80,00</td>
+                        <td>R$ 280,00 </td>
+                   </tr>
+                   <tr>
+                        <td>Psicanálise</td>
+                        <td>08:00 às 18:00</td>
+                        <td>08:00 às 12:00</td>
+                        <td>R$ 100,00</td>
+                        <td>R$ 350,00</td>
+                   </tr>
+                   <tr>
+                        <td>Behaviorismo</td>
+                        <td>10:00 às 16:00</td>
+                        <td>08:00 às 12:00</td>
+                        <td>R$ 80,00</td>
+                        <td>R$ 280,00</td>
+                   </tr>
+                   <tr>
+                        <td>Gestalt</td>
+                        <td>09:00 às 17:00</td>
+                        <td>08:00 às 12:00</td>
+                        <td>R$ 80,00</td>
+                        <td>R$ 280,00</td>
+                   </tr>
+               </table> 
+            </div>
+    
+            <div class="footer">
+                <p>&copy; 2023 Clínica Sorrir - Psicologia Infantil. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

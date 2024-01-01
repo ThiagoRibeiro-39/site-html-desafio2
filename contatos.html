@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Sorrir - Contatos</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body> 
+    
+    <audio id="meuAudio" autoplay>
+        <source src="yussef.mp3" type="audio/mp3"/>
+        Seu navegador não tem suporte para esse áudio!
+    </audio> 
+
+    <!--acrescentei esse script para que o áudio comece a tocar com o volume em 20%-->
+    <script>
+        var meuAudio = document.getElementById('meuAudio');
+        meuAudio.volume = 0.1;
+    </script>
+
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" title="Página principal">Início</a></li>
+                <li><a href="quemSomos.html" title="Quem somos">Quem somos</a></li>
+                <li><a href="horarios.html" title="Horário de Atendimento">Horário de Atendimento</a></li>
+                <li><a href="contatos.html" title="Contato">Contato</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="main">
+            <div class="header">
+                <img src="https://www.kbsystem.com.br/wordpress/wp-content/uploads/2015/11/contato.jpg" alt="imagem de uma mão feminina apontando para ícones de contato"/>
+                
+                
+            </div>
+    
+            <div class="content">
+                <h2><u>Informações para contato:</u></h2> 
+                <p> <b>Telefones:</b><br> Clínica: (24) 333229876 / Celular e Whatsapp: (24) 987654321</p>
+                <p><b>Endereço:</b><br> Av. ABC de Oliveira, 789 - Tranquilândia - RJ</p>
+                
+                <fieldset>
+                <legend><h2>Formulário de Contato</h2></legend>
+                <form>
+                   <label>Nome:</label> <input type="text" name="name"/><br>
+                   <label>E-Mail:</label> <input type="email" name="email"/><br>
+                   <label>Assunto:</label> <input type="text" name="assunto"/><br>
+                   <label>Mensagem:</label>
+                   <textarea name="message"></textarea>
+                   <button type="submit">Enviar</button>
+                   <button type="reset">Limpar</button>
+                </form>
+                </fieldset>
+            </div>
+    
+            <div class="footer">
+                <iframe class="iframe-google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41689.308178623636!2d-44.163801890959554!3d-22.54732613026357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1703931487844!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                <p>&copy; 2023 Clínica Sorrir - Psicologia Infantil. Todos os direitos reservados.</p>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>

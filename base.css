@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(162, 224, 224);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(162, 224, 224);
+    min-height: 150px;
+    max-width: 100%;
+}
+.header img{
+    width: 100%;
+    height: auto;
+}    
+.content {
+    background-color: rgb(236, 252, 249);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(193, 255, 252);
+    min-height: 100px;
+    text-align: center;
+    margin-top: auto;
+}
+.iframe-google-maps {
+    margin-top: auto; /* Adapte o valor conforme necessário */
+    width: 100%;
+    height: 400px; /* Altura do seu mapa */
+    border: 0; /* Remova a borda padrão do iframe */
+}
+.content form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+.content h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #d4d4d4;
+    color: #1b1b1b;
+    padding: 10px 15px;
+    border: 1px solid ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+button:hover {
+    background-color: #99ff80;
+}
